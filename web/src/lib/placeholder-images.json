@@ -1,0 +1,88 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "Elegant pet lounging on a plush cushion",
+      "imageUrl": "https://images.unsplash.com/photo-1735994514191-6f6bd8952b18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlbGVnYW50JTIwcGV0fGVufDB8fHx8MTc2NDczNTIyMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "elegant pet"
+    },
+    {
+      "id": "golden-retriever",
+      "description": "A happy golden retriever",
+      "imageUrl": "https://images.unsplash.com/photo-1633722715463-d30f4f325e24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnb2xkZW4lMjByZXRyaWV2ZXJ8ZW58MHx8fHwxNzY0NzIzNzA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "golden retriever"
+    },
+    {
+      "id": "siamese-cat",
+      "description": "An elegant Siamese cat",
+      "imageUrl": "https://images.unsplash.com/photo-1621446682704-ea3755b8382b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzaWFtZXNlJTIwY2F0fGVufDB8fHx8MTc2NDY3ODQ5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "siamese cat"
+    },
+    {
+      "id": "parrot",
+      "description": "A colorful parrot",
+      "imageUrl": "https://images.unsplash.com/photo-1682588942214-10758e7313ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb2xvcmZ1bCUyMHBhcnJvdHxlbnwwfHx8fDE3NjQ3MzUyMjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "colorful parrot"
+    },
+    {
+      "id": "labrador",
+      "description": "A playful labrador puppy",
+      "imageUrl": "https://images.unsplash.com/photo-1507146426996-ef05306b995a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsYWJyYWRvciUyMHB1cHB5fGVufDB8fHx8MTc2NDY3ODQ5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "labrador puppy"
+    },
+    {
+      "id": "persian-cat",
+      "description": "A fluffy persian cat",
+      "imageUrl": "https://images.unsplash.com/photo-1591429939960-b7d5add10b5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzaWFuJTIwY2F0fGVufDB8fHx8MTc2NDcyMzcwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "persian cat"
+    },
+    {
+      "id": "dog-food",
+      "description": "A bag of premium dog food",
+      "imageUrl": "https://images.unsplash.com/photo-1589924691995-400dc9ecc119?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkb2clMjBmb29kfGVufDB8fHx8MTc2NDYyMjE2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog food"
+    },
+    {
+      "id": "cat-toy",
+      "description": "A colorful cat toy",
+      "imageUrl": "https://images.unsplash.com/photo-1600693919791-7829a39b602e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjYXQlMjB0b3l8ZW58MHx8fHwxNzY0NzM1MjIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cat toy"
+    },
+    {
+      "id": "dog-leash",
+      "description": "A stylish leather dog leash",
+      "imageUrl": "https://images.unsplash.com/photo-1494947665470-20322015e3a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZG9nJTIwbGVhc2h8ZW58MHx8fHwxNzY0Njk5NTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog leash"
+    },
+    {
+      "id": "cat-tree",
+      "description": "A multi-level cat tree",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1600322287053-d46e797ce192?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjYXQlMjB0cmVlfGVufDB8fHx8MTc2NDcwMTEzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cat tree"
+    },
+    {
+      "id": "grooming",
+      "description": "Pet grooming supplies",
+      "imageUrl": "https://images.unsplash.com/photo-1625321171045-1fea4ac688e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXQlMjBncm9vbWluZ3xlbnwwfHx8fDE3NjQ3MDA4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pet grooming"
+    },
+    {
+      "id": "vet-checkup",
+      "description": "Veterinarian checking a pet",
+      "imageUrl": "https://images.unsplash.com/photo-1571950337229-f78566132580?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx2ZXRlcmluYXJpYW4lMjBwZXR8ZW58MHx8fHwxNzY0NzM1MjIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "veterinarian pet"
+    },
+    {
+      "id": "training",
+      "description": "Dog training session",
+      "imageUrl": "https://images.unsplash.com/photo-1599397101162-7305f6cf8db1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkb2clMjB0cmFpbmluZ3xlbnwwfHx8fDE3NjQ3MzUyMjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog training"
+    },
+    {
+      "id": "boarding",
+      "description": "Happy dogs in a boarding facility",
+      "imageUrl": "https://images.unsplash.com/photo-1699545966485-f44ee21e2314?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXQlMjBib2FyZGluZ3xlbnwwfHx8fDE3NjQ3MzUyMjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pet boarding"
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "store": {
+    "sha3:607a942aef0265f1": {
+      "data": "j:j:{\"address\": null, \"created_at\": \"2025-11-30T23:23:43.698171Z\", \"email\": null, \"id\": \"cust:003\", \"name\": \"John Smith\", \"pet_ids\": [], \"phone\": null}",
+      "prev": null,
+      "ts": 1764545023,
+      "type": "j"
+    },
+    "sha3:a7b69605add7428d": {
+      "data": "j:j:{\"address\": null, \"created_at\": \"2025-11-30T23:23:43.699167Z\", \"email\": null, \"id\": \"cust:004\", \"name\": \"Sarah Johnson\", \"pet_ids\": [], \"phone\": null}",
+      "prev": null,
+      "ts": 1764545023,
+      "type": "j"
+    },
+    "sha3:a057074e59533104": {
+      "data": "j:j:{\"age_months\": null, \"breed\": \"Golden Retriever\", \"created_at\": \"2025-11-30T23:23:43.699413Z\", \"gender\": null, \"id\": \"pet:003\", \"name\": \"Buddy\", \"owner_id\": null, \"price\": 800.0, \"status\": \"available\", \"tags\": [], \"type\": \"dog\"}",
+      "prev": null,
+      "ts": 1764545023,
+      "type": "j"
+    },
+    "sha3:b088fa93e756c6b3": {
+      "data": "j:j:{\"age_months\": null, \"breed\": \"Siamese\", \"created_at\": \"2025-11-30T23:23:43.699745Z\", \"gender\": null, \"id\": \"pet:004\", \"name\": \"Whiskers\", \"owner_id\": null, \"price\": 300.0, \"status\": \"available\", \"tags\": [], \"type\": \"cat\"}",
+      "prev": null,
+      "ts": 1764545023,
+      "type": "j"
+    },
+    "sha3:590c304579fbe8d9": {
+      "data": "j:j:{\"brand\": null, \"category\": \"food\", \"cost\": null, \"id\": \"prod:004\", \"in_stock\": 50, \"name\": \"Premium Dog Food\", \"price\": 45.99, \"sku\": \"DF-PREM-20\", \"tags\": []}",
+      "prev": null,
+      "ts": 1764545023,
+      "type": "j"
+    },
+    "sha3:f1a61acefa8872c0": {
+      "data": "j:j:{\"brand\": null, \"category\": \"toy\", \"cost\": null, \"id\": \"prod:006\", \"in_stock\": 100, \"name\": \"Laser Pointer\", \"price\": 9.99, \"sku\": \"PROD-0005\", \"tags\": []}",
+      "prev": null,
+      "ts": 1764545023,
+      "type": "j"
+    },
+    "sha3:effd2581fd54b77b": {
+      "data": "j:j:{\"description\": \"Full groom package\", \"id\": \"serv:002\", \"notes\": null, \"pet_id\": \"pet:003\", \"price\": 75.0, \"scheduled_for\": \"2025-11-30T23:23:43.700217Z\", \"status\": \"scheduled\", \"type\": \"grooming\"}",
+      "prev": null,
+      "ts": 1764545023,
+      "type": "j"
+    },
+    "sha3:94a166c4d1c11b32": {
+      "data": "j:j:{\"customer_id\": \"cust:003\", \"id\": \"sale:002\", \"items\": [{\"price\": 800.0, \"quantity\": 1, \"ref\": \"pet:003\", \"type\": \"pet\"}, {\"price\": 45.99, \"quantity\": 1, \"ref\": \"prod:004\", \"type\": \"product\"}], \"payment_method\": \"card\", \"tax\": null, \"timestamp\": \"2025-11-30T23:23:43.700621Z\", \"total\": 845.99}",
+      "prev": null,
+      "ts": 1764545024,
+      "type": "j"
+    },
+    "sha3:0c89710db0f7c418": {
+      "data": "j:j:{\"address\": null, \"created_at\": \"2025-11-30T23:31:54.085936Z\", \"email\": null, \"id\": \"cust:005\", \"name\": \"John Smith\", \"pet_ids\": [], \"phone\": null}",
+      "prev": null,
+      "ts": 1764545514,
+      "type": "j"
+    },
+    "sha3:784020de0b5fd7f5": {
+      "data": "j:j:{\"address\": null, \"created_at\": \"2025-11-30T23:31:54.087174Z\", \"email\": null, \"id\": \"cust:006\", \"name\": \"Sarah Johnson\", \"pet_ids\": [], \"phone\": null}",
+      "prev": null,
+      "ts": 1764545514,
+      "type": "j"
+    },
+    "sha3:583538d9089548f8": {
+      "data": "j:j:{\"age_months\": null, \"breed\": \"Golden Retriever\", \"created_at\": \"2025-11-30T23:31:54.087280Z\", \"gender\": null, \"id\": \"pet:005\", \"name\": \"Buddy\", \"owner_id\": null, \"price\": 800.0, \"status\": \"available\", \"tags\": [], \"type\": \"dog\"}",
+      "prev": null,
+      "ts": 1764545514,
+      "type": "j"
+    },
+    "sha3:277507b864c98b92": {
+      "data": "j:j:{\"age_months\": null, \"breed\": \"Siamese\", \"created_at\": \"2025-11-30T23:31:54.087485Z\", \"gender\": null, \"id\": \"pet:006\", \"name\": \"Whiskers\", \"owner_id\": null, \"price\": 300.0, \"status\": \"available\", \"tags\": [], \"type\": \"cat\"}",
+      "prev": null,
+      "ts": 1764545514,
+      "type": "j"
+    },
+    "sha3:156c7bb17c8b9fda": {
+      "data": "j:j:{\"brand\": null, \"category\": \"food\", \"cost\": null, \"id\": \"prod:007\", \"in_stock\": 50, \"name\": \"Premium Dog Food\", \"price\": 45.99, \"sku\": \"DF-PREM-20\", \"tags\": []}",
+      "prev": null,
+      "ts": 1764545514,
+      "type": "j"
+    },
+    "sha3:71c29eae98c4b1d5": {
+      "data": "j:j:{\"brand\": null, \"category\": \"toy\", \"cost\": null, \"id\": \"prod:009\", \"in_stock\": 100, \"name\": \"Laser Pointer\", \"price\": 9.99, \"sku\": \"PROD-0008\", \"tags\": []}",
+      "prev": null,
+      "ts": 1764545514,
+      "type": "j"
+    },
+    "sha3:de79f8dda46f59d5": {
+      "data": "j:j:{\"description\": \"Full groom package\", \"id\": \"serv:003\", \"notes\": null, \"pet_id\": \"pet:005\", \"price\": 75.0, \"scheduled_for\": \"2025-11-30T23:31:54.087797Z\", \"status\": \"scheduled\", \"type\": \"grooming\"}",
+      "prev": null,
+      "ts": 1764545514,
+      "type": "j"
+    },
+    "sha3:2c7d18ca0110fa74": {
+      "data": "j:j:{\"customer_id\": \"cust:005\", \"id\": \"sale:003\", \"items\": [{\"price\": 800.0, \"quantity\": 1, \"ref\": \"pet:005\", \"type\": \"pet\"}, {\"price\": 45.99, \"quantity\": 1, \"ref\": \"prod:007\", \"type\": \"product\"}], \"payment_method\": \"card\", \"tax\": null, \"timestamp\": \"2025-11-30T23:31:54.088103Z\", \"total\": 845.99}",
+      "prev": null,
+      "ts": 1764545514,
+      "type": "j"
+    },
+    "sha3:c33ca72afbb2ae43": {
+      "data": "j:j:{\"address\": null, \"created_at\": \"2025-11-30T23:34:20.836159Z\", \"email\": null, \"id\": \"cust:007\", \"name\": \"John Smith\", \"pet_ids\": [], \"phone\": null}",
+      "prev": null,
+      "ts": 1764545660,
+      "type": "j"
+    },
+    "sha3:266f27391f195c24": {
+      "data": "j:j:{\"address\": null, \"created_at\": \"2025-11-30T23:34:20.837017Z\", \"email\": null, \"id\": \"cust:008\", \"name\": \"Sarah Johnson\", \"pet_ids\": [], \"phone\": null}",
+      "prev": null,
+      "ts": 1764545661,
+      "type": "j"
+    },
+    "sha3:09f20cd4829406a9": {
+      "data": "j:j:{\"age_months\": null, \"breed\": \"Golden Retriever\", \"created_at\": \"2025-11-30T23:34:20.837130Z\", \"gender\": null, \"id\": \"pet:007\", \"name\": \"Buddy\", \"owner_id\": null, \"price\": 800.0, \"status\": \"available\", \"tags\": [], \"type\": \"dog\"}",
+      "prev": null,
+      "ts": 1764545661,
+      "type": "j"
+    },
+    "sha3:0028b0120e06abde": {
+      "data": "j:j:{\"age_months\": null, \"breed\": \"Siamese\", \"created_at\": \"2025-11-30T23:34:20.837301Z\", \"gender\": null, \"id\": \"pet:008\", \"name\": \"Whiskers\", \"owner_id\": null, \"price\": 300.0, \"status\": \"available\", \"tags\": [], \"type\": \"cat\"}",
+      "prev": null,
+      "ts": 1764545661,
+      "type": "j"
+    },
+    "sha3:25fbeea2e9cf4ec6": {
+      "data": "j:j:{\"brand\": null, \"category\": \"food\", \"cost\": null, \"id\": \"prod:010\", \"in_stock\": 50, \"name\": \"Premium Dog Food\", \"price\": 45.99, \"sku\": \"DF-PREM-20\", \"tags\": []}",
+      "prev": null,
+      "ts": 1764545661,
+      "type": "j"
+    },
+    "sha3:5f0f774e773b99ea": {
+      "data": "j:j:{\"brand\": null, \"category\": \"toy\", \"cost\": null, \"id\": \"prod:012\", \"in_stock\": 100, \"name\": \"Laser Pointer\", \"price\": 9.99, \"sku\": \"PROD-0011\", \"tags\": []}",
+      "prev": null,
+      "ts": 1764545661,
+      "type": "j"
+    },
+    "sha3:af09f14b85c239cd": {
+      "data": "j:j:{\"description\": \"Full groom package\", \"id\": \"serv:004\", \"notes\": null, \"pet_id\": \"pet:007\", \"price\": 75.0, \"scheduled_for\": \"2025-11-30T23:34:20.837592Z\", \"status\": \"scheduled\", \"type\": \"grooming\"}",
+      "prev": null,
+      "ts": 1764545661,
+      "type": "j"
+    },
+    "sha3:59087ee59015aa80": {
+      "data": "j:j:{\"customer_id\": \"cust:007\", \"id\": \"sale:004\", \"items\": [{\"price\": 800.0, \"quantity\": 1, \"ref\": \"pet:007\", \"type\": \"pet\"}, {\"price\": 45.99, \"quantity\": 1, \"ref\": \"prod:010\", \"type\": \"product\"}], \"payment_method\": \"card\", \"tax\": null, \"timestamp\": \"2025-11-30T23:34:20.837788Z\", \"total\": 845.99}",
+      "prev": null,
+      "ts": 1764545661,
+      "type": "j"
+    },
+    "sha3:6d5b6a584027a947": {
+      "data": "j:j:{\"address\": null, \"created_at\": \"2025-11-30T23:36:22.611735Z\", \"email\": null, \"id\": \"cust:009\", \"name\": \"John Smith\", \"pet_ids\": [], \"phone\": null}",
+      "prev": null,
+      "ts": 1764545782,
+      "type": "j"
+    },
+    "sha3:34f8e70649471131": {
+      "data": "j:j:{\"address\": null, \"created_at\": \"2025-11-30T23:36:22.613948Z\", \"email\": null, \"id\": \"cust:010\", \"name\": \"Sarah Johnson\", \"pet_ids\": [], \"phone\": null}",
+      "prev": null,
+      "ts": 1764545782,
+      "type": "j"
+    },
+    "sha3:2bd06a89af895031": {
+      "data": "j:j:{\"age_months\": null, \"breed\": \"Golden Retriever\", \"created_at\": \"2025-11-30T23:36:22.614135Z\", \"gender\": null, \"id\": \"pet:009\", \"name\": \"Buddy\", \"owner_id\": null, \"price\": 800.0, \"status\": \"available\", \"tags\": [], \"type\": \"dog\"}",
+      "prev": null,
+      "ts": 1764545782,
+      "type": "j"
+    },
+    "sha3:acbf6fa1880f91a6": {
+      "data": "j:j:{\"age_months\": null, \"breed\": \"Siamese\", \"created_at\": \"2025-11-30T23:36:22.614404Z\", \"gender\": null, \"id\": \"pet:010\", \"name\": \"Whiskers\", \"owner_id\": null, \"price\": 300.0, \"status\": \"available\", \"tags\": [], \"type\": \"cat\"}",
+      "prev": null,
+      "ts": 1764545782,
+      "type": "j"
+    },
+    "sha3:97eb3975d0508f50": {
+      "data": "j:j:{\"brand\": null, \"category\": \"food\", \"cost\": null, \"id\": \"prod:013\", \"in_stock\": 50, \"name\": \"Premium Dog Food\", \"price\": 45.99, \"sku\": \"DF-PREM-20\", \"tags\": []}",
+      "prev": null,
+      "ts": 1764545782,
+      "type": "j"
+    },
+    "sha3:bd7c2e88b25a4114": {
+      "data": "j:j:{\"brand\": null, \"category\": \"toy\", \"cost\": null, \"id\": \"prod:015\", \"in_stock\": 100, \"name\": \"Laser Pointer\", \"price\": 9.99, \"sku\": \"PROD-0014\", \"tags\": []}",
+      "prev": null,
+      "ts": 1764545782,
+      "type": "j"
+    },
+    "sha3:85e658efb488691a": {
+      "data": "j:j:{\"description\": \"Full groom package\", \"id\": \"serv:005\", \"notes\": null, \"pet_id\": \"pet:009\", \"price\": 75.0, \"scheduled_for\": \"2025-11-30T23:36:22.614716Z\", \"status\": \"scheduled\", \"type\": \"grooming\"}",
+      "prev": null,
+      "ts": 1764545782,
+      "type": "j"
+    },
+    "sha3:b91e4093e33b5718": {
+      "data": "j:j:{\"customer_id\": \"cust:009\", \"id\": \"sale:005\", \"items\": [{\"price\": 800.0, \"quantity\": 1, \"ref\": \"pet:009\", \"type\": \"pet\"}, {\"price\": 45.99, \"quantity\": 1, \"ref\": \"prod:013\", \"type\": \"product\"}], \"payment_method\": \"card\", \"tax\": null, \"timestamp\": \"2025-11-30T23:36:22.614900Z\", \"total\": 845.99}",
+      "prev": null,
+      "ts": 1764545782,
+      "type": "j"
+    }
+  },
+  "fingerprints": {
+    "sha3:42832ff8da1fd524": [
+      "sha3:607a942aef0265f1",
+      "sha3:0c89710db0f7c418",
+      "sha3:c33ca72afbb2ae43",
+      "sha3:6d5b6a584027a947"
+    ],
+    "sha3:865f9fc3226a8820": [
+      "sha3:a7b69605add7428d",
+      "sha3:784020de0b5fd7f5",
+      "sha3:266f27391f195c24",
+      "sha3:34f8e70649471131"
+    ],
+    "sha3:3c0ad21f8c277730": [
+      "sha3:a057074e59533104",
+      "sha3:583538d9089548f8",
+      "sha3:09f20cd4829406a9",
+      "sha3:2bd06a89af895031"
+    ],
+    "sha3:973596057640def8": [
+      "sha3:b088fa93e756c6b3",
+      "sha3:277507b864c98b92",
+      "sha3:0028b0120e06abde",
+      "sha3:acbf6fa1880f91a6"
+    ],
+    "sha3:d6892b3ccef90c20": [
+      "sha3:590c304579fbe8d9",
+      "sha3:156c7bb17c8b9fda",
+      "sha3:25fbeea2e9cf4ec6",
+      "sha3:97eb3975d0508f50"
+    ],
+    "sha3:8a04c48d9284feb3": [
+      "sha3:f1a61acefa8872c0",
+      "sha3:71c29eae98c4b1d5",
+      "sha3:5f0f774e773b99ea",
+      "sha3:bd7c2e88b25a4114"
+    ],
+    "sha3:1c398f0e8096ff37": [
+      "sha3:effd2581fd54b77b"
+    ],
+    "sha3:97002138bd7b2116": [
+      "sha3:94a166c4d1c11b32"
+    ],
+    "sha3:1dba2b911eb7b029": [
+      "sha3:de79f8dda46f59d5"
+    ],
+    "sha3:d81082f85031d203": [
+      "sha3:2c7d18ca0110fa74"
+    ],
+    "sha3:d8d69e8a350ccc35": [
+      "sha3:af09f14b85c239cd"
+    ],
+    "sha3:1be57e77b434d481": [
+      "sha3:59087ee59015aa80"
+    ],
+    "sha3:d1a64cac2a79d940": [
+      "sha3:85e658efb488691a"
+    ],
+    "sha3:50e6b6fa9414ba46": [
+      "sha3:b91e4093e33b5718"
+    ]
+  }
+}

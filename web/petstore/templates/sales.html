@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="mb-5">
+    <h1 class="title is-2 mb-4">Sales Transactions</h1>
+    <div class="level">
+        <div class="level-left">
+            <div class="level-item">
+                <div class="control has-icons-left">
+                    <input class="input is-rounded" type="text" placeholder="Search sales...">
+                    <span class="icon is-left">
+                        <i class="material-icons">search</i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="level-right">
+            <button class="button is-primary">
+                <i class="material-icons mr-2">add_shopping_cart</i>
+                New Sale
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-content">
+        <div class="content">
+            {% if sales %}
+            <div class="table-container">
+                <table class="table is-fullwidth is-striped">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Date</th>
+                            <th>Customer</th>
+                            <th>Items</th>
+                            <th>Total</th>
+                            <th>Payment</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for sale in sales %}
+                        <tr>
+                            <td>{{ sale.id | default('SALE-' ~ loop.index) }}</td>
+                            <td>{{ sale.timestamp | format_datetime }}</td>
+                            <td>{{ sale.customer_id | get_customer_name }}</td>
+                            <td>{{ sale.items | length }} items</td>
+                            <td>${{ sale.total | number_format(2) }}</td>
+                            <td>{{ sale.payment_method | title }}</td>
+                            <td>
+                                <button class="button is-small is-info">
+                                    <i class="material-icons">receipt</i> Invoice
+                                </button>
+                                <button class="button is-small is-danger ml-1">
+                                    <i class="material-icons">delete</i>
+                                </button>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+            <div class="notification is-warning">
+                <i class="material-icons">info</i>
+                No sales transactions recorded.
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}
