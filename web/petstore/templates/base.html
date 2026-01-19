@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Store Manager</title>
+    
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    
+    <style>
+        :root {
+            --primary: #4caf50;
+            --primary-dark: #388e3c;
+            --secondary: #ff9800;
+            --card-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f7fa;
+            min-height: 100vh;
+        }
+        
+        .navbar {
+            background-color: var(--primary);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .navbar-item {
+            color: white !important;
+            font-weight: 500;
+        }
+        
+        .navbar-item:hover {
+            background-color: var(--primary-dark) !important;
+        }
+        
+        .card {
+            box-shadow: var(--card-shadow);
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card-header {
+            background-color: var(--primary);
+            color: white;
+            padding: 0.75rem 1rem;
+            border-radius: 8px 8px 0 0;
+        }
+        
+        .card-content {
+            padding: 1.5rem;
+        }
+        
+        .table-container {
+            overflow-x: auto;
+        }
+        
+        .notification {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <i class="material-icons">pets</i>
+                <span class="ml-2">Pet Store Manager</span>
+            </a>
+        </div>
+
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <a href="/customers" class="navbar-item">
+                    <i class="material-icons">people</i>
+                    <span class="ml-2">Customers</span>
+                </a>
+                <a href="/pets" class="navbar-item">
+                    <i class="material-icons">pets</i>
+                    <span class="ml-2">Pets</span>
+                </a>
+                <a href="/sales" class="navbar-item">
+                    <i class="material-icons">receipt</i>
+                    <span class="ml-2">Sales</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="section">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-10">
+                    {% block content %}{% endblock %}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Pet Store Manager</strong> &copy; {{ current_year }}.
+                Powered by Python and RBD.
+            </p>
+        </div>
+    </footer>
+
+    <!-- HTMX for AJAX-like functionality without JS -->
+    <script src="https://unpkg.com/htmx.org@1.8.4"></script>
+    
+    <script>
+        // Add current year to footer
+        document.querySelector('footer .content p').innerHTML = 
+            document.querySelector('footer .content p').innerHTML
+            .replace('{{ current_year }}', new Date().getFullYear());
+    </script>
+</body>
+</html>

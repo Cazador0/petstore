@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="mb-5">
+    <h1 class="title is-2 mb-4">Customer Management</h1>
+    <div class="level">
+        <div class="level-left">
+            <div class="level-item">
+                <div class="control has-icons-left">
+                    <input class="input is-rounded" type="text" placeholder="Search customers...">
+                    <span class="icon is-left">
+                        <i class="material-icons">search</i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="level-right">
+            <button class="button is-primary" onclick="document.getElementById('create-modal').classList.add('is-active')">
+                <i class="material-icons mr-2">person_add</i>
+                Add Customer
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-content">
+        <div class="content">
+            {% if customers %}
+            <div class="table-container">
+                <table class="table is-fullwidth is-striped">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Phone</th>
+                            <th>Email</th>
+                            <th>Transactions</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for customer in customers %}
+                        <tr>
+                            <td>{{ customer.id | default('CUST-' ~ loop.index) }}</td>
+                            <td>{{ customer.first_name }} {{ customer.last_name }}</td>
+                            <td>{{ customer.phone | default('') }}</td>
+                            <td>{{ customer.email | default('') }}</td>
+                            <td>{{ customer.transaction_ids | length }} transactions</td>
+                            <td>
+                                <button class="button is-small is-info">
+                                    <i class="material-icons">visibility</i>
+                                </button>
+                                <button class="button is-small is-warning ml-1">
+                                    <i class="material-icons">edit</i>
+                                </button>
+                                <button class="button is-small is-danger ml-1">
+                                    <i class="material-icons">delete</i>
+                                </button>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+            <div class="notification is-warning">
+                <i class="material-icons">info</i>
+                No customers found. Create your first customer!
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<!-- Create Customer Modal -->
+<div class="modal" id="create-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <p class="modal-card-title">Create New Customer</p>
+            <button class="delete" onclick="document.getElementById('create-modal').classList.remove('is-active')"></button>
+        </header>
+        <form action="/customers/create" method="POST">
+            <section class="modal-card-body">
+                <div class="field">
+                    <label class="label">First Name</label>
+                    <div class="control">
+                        <input class="input" type="text" name="first_name" required>
+                    </div>
+                </div>
+                
+                <div class="field">
+                    <label class="label">Last Name</label>
+                    <div class="control">
+                        <input class="input" type="text" name="last_name" required>
+                    </div>
+                </div>
+                
+                <div class="field">
+                    <label class="label">Phone Number</label>
+                    <div class="control">
+                        <input class="input" type="tel" name="phone" required>
+                    </div>
+                </div>
+                
+                <div class="field">
+                    <label class="label">Email Address</label>
+                    <div class="control">
+                        <input class="input" type="email" name="email">
+                    </div>
+                </div>
+            </section>
+            <footer class="modal-card-foot">
+                <button class="button is-primary" type="submit">Create Customer</button>
+                <button class="button" type="button" onclick="document.getElementById('create-modal').classList.remove('is-active')">Cancel</button>
+            </footer>
+        </form>
+    </div>
+</div>
+
+{% endblock %}
